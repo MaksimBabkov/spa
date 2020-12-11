@@ -1,0 +1,88 @@
+.container {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+img {
+  padding-right: 20px;
+}
+
+.elementNumber {
+  display: flex;
+  text-align: start;
+  padding: 15px 0px;
+  align-items: center;
+}
+
+.columnPhone {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.map {
+  width: 700px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+
+}
+
+a:hover {
+ color: rgb(173, 165, 45);
+}
+
+@media (max-width:1200px) {
+  .map {
+    width: 500px;
+  }
+}
+
+@media (max-width:745px) {
+  .map {
+    width: 400px;
+  }
+}
+
+@media (max-width:475px) {
+  .map {
+    width: 310px;
+  }
+}
+
+@media (max-width:338px) {
+  .map {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+@media(max-width:990px) {
+  .box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: auto;
+  }
+}
+
+@media (max-width:330px) {
+  .imageMap {
+    padding: 0px;
+  }
+}
+
+

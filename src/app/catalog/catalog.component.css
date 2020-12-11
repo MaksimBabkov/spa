@@ -1,0 +1,32 @@
+a {
+color: black;
+}
+
+.container {
+  text-align: center;
+}
+
+h3 {
+  margin-left: 25px;
+}
+
+
+.flex-box {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+@media (max-width:410px) {
+  .pad-verh {
+    padding: 10px 0px;
+  }
+  .flex-box {
+    flex-direction: column;
+    margin-right: 26px;
+ }
+}

@@ -1,0 +1,82 @@
+.container-fluid {
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container-element {
+  position: relative;
+  margin: 10px;
+}
+
+.basket {
+  background-color: rgb(94, 94, 94);
+  color: white;
+  width: 150px;
+  border: none;
+  transition: .6s ease-in-out;
+  -webkit-transition: .6s ease-in-out;
+  -moz-transition: .6s ease-in-out;
+  -o-transition: .6s ease-in-out;
+  -ms-transition: .6s ease-in-out;
+}
+
+.basket:hover {
+background-color: black;
+color: white;
+}
+
+h5 {
+  display: none;
+  color: rgb(116, 113, 113);
+  position: absolute;
+  background-color: black;
+  border: solid 1px white;
+  padding: 5px 15px;
+  left: 30%;
+  top: 35%;
+  z-index: 2;
+  transition: .6s ease-in-out;
+  -webkit-transition: .6s ease-in-out;
+  -moz-transition: .6s ease-in-out;
+  -o-transition: .6s ease-in-out;
+  -ms-transition: .6s ease-in-out;
+}
+
+.container-element:hover h5 {
+ display: block;
+}
+
+h5:hover {
+  background-color: white;
+   color: rgb(0, 0, 0);
+   border: solid 1px black;
+ }
+
+img {
+  z-index: 1;
+}
+
+
+ul {
+  margin-right: 13%;
+  list-style: none;
+}
+
+li {
+  padding: 5px;
+}
+
+@media (max-width:374px) {
+  h5 {
+    position: absolute;
+    left: 24%;
+    top: 35%;
+    z-index: 2;
+  }
+}
+

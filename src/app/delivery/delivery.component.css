@@ -1,0 +1,233 @@
+a {
+  color: white;
+}
+
+.container {
+  margin-top: 70px;
+  text-align: center;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.paragraf {
+  max-width: 400px;
+  padding: 15px;
+}
+
+.img1 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-right: 130px;
+}
+
+
+.img2 {
+  margin: 35px 0px;
+}
+
+.img3 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+margin-left: 50px;
+}
+
+
+.delywery {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.dostavka {
+  position: relative;
+  padding: 1px;
+  color: white;
+  background-color: rgb(146, 138, 137);
+}
+
+.a1 {
+padding: 3px 25px;
+background-color: rgb(146, 138, 137);
+position: absolute;
+top:-10px;
+left: 0px;
+z-index: 2;
+transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+
+}
+
+.a2 {
+  padding: 3px 25px;
+  background-color: rgb(146, 138, 137);
+  position: absolute;
+  top:-10px;
+  right: 75px;
+  z-index: 2;
+  transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+
+  }
+
+  .a3 {
+    padding: 3px 25px;
+    background-color: rgb(146, 138, 137);
+    position: absolute;
+    top:-10px;
+    right: 0px;
+    z-index: 2;
+    transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+
+    }
+
+    .a1:hover,.a2:hover,.a3:hover {
+background-color: black;
+    }
+
+    .element {
+      width: 320px;
+      height: 250px;
+      position: relative;
+    }
+
+
+    .tool1 {
+  padding: 15px;
+  display: none;
+  box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.281);
+  color: rgb(0, 0, 0);
+  left: -77px;
+  bottom: -20px;
+  text-align: start;
+  position: absolute;
+  margin-top: 50px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 170px;
+  z-index: 3;
+}
+
+    .tooltiptext {
+      position: absolute;
+      top:-20px;
+      left: 15px;
+      width: 15px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent rgb(255, 255, 255) transparent;
+  }
+
+
+  .tool2 {
+    padding: 15px;
+    display: none;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.281);
+    color: rgb(0, 0, 0);
+    left: 13px;
+    bottom: -20px;
+    text-align: start;
+    position: absolute;
+    margin-top: 50px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 180px;
+    z-index: 3;
+}
+
+  .tooltiptext {
+    position: absolute;
+    top:-20px;
+    left: 15px;
+    width: 15px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+}
+
+.tool3 {
+  padding: 15px;
+  display: none;
+  box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.281);
+  color: rgb(0, 0, 0);
+  left: 105px;
+  bottom: -20px;
+  text-align: start;
+  position: absolute;
+  margin-top: 50px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 170px;
+  z-index: 3;
+}
+
+.tooltiptext {
+  position: absolute;
+  top:-20px;
+  left: 15px;
+  width: 15px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgb(255, 255, 255) transparent;
+}
+
+
+.element:hover .tool1 {
+ display: block;
+}
+
+.element:hover .tool2 {
+  display: block;
+}
+
+.element:hover .tool3 {
+ display: block;
+}
+
+@media (max-width:1199px) {
+  .dostavka {
+    background-color: white;
+  }
+  .a3 {
+    padding: 3px 25px;
+    position: absolute;
+    top:0px;
+    right: 80px;
+    }
+  .img3 {
+    padding: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width:780px) {
+  .img1 {
+    padding-left: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+  }
+  .a1 {
+    padding: 3px 25px;
+    position: absolute;
+    top:-10px;
+    left: 80px;
+    z-index: 2;
+    }
+}
+

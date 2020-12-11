@@ -1,0 +1,23 @@
+.container {
+  margin-top: 150px;
+}
+h3 {
+  text-align: center;
+}
+
+.b1 {
+  margin: auto;
+  width: 300px;
+  border-radius: 8px;
+  background-color: rgb(216, 216, 216);
+  padding: 20px;
+  -webkit-border-radius:s 8px;
+  -moz-border-radius:s 8px;
+  -ms-border-radius:s 8px;
+  -o-border-radius:s 8px;
+}
+
+.b2 {
+  padding: 5px 0px;
+  text-align: center;
+}

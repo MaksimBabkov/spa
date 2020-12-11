@@ -1,0 +1,23 @@
+
+.container-fluid {
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.element {
+  margin: auto;
+  text-align: center;
+  max-width: 555px;
+}
+
+p {
+  padding: 25px 70px;
+}
